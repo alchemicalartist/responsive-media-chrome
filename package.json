@@ -24,9 +24,9 @@
     "dev": "vitest dev",
     "lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
     "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
-    "prepack": "pnpm run build",
+    "prepack": "npm run build",
     "release": "&& changelogen --release && npm publish && git push --follow-tags",
-    "test": "pnpm lint && vitest run --coverage"
+    "test": "npm lint && vitest run --coverage"
   },
   "devDependencies": {
     "@vitest/coverage-c8": "^0.32.2",
@@ -38,7 +38,6 @@
     "unbuild": "^1.2.1",
     "vitest": "^0.32.2"
   },
-  "packageManager": "pnpm@7.33.0",
   "dependencies": {
     "media-chrome": "^1.1.0"
   }
