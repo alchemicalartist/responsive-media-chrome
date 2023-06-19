@@ -2,7 +2,10 @@
   "name": "@alchemicalartist/responsive-media-chrome",
   "version": "1.0.0",
   "description": "",
-  "repository": "alchemicalartist/responsive-media-chrome",
+  "repository": {
+    "type": "git",
+    "url": "ssh:git@github.com/alchemicalartist/responsive-media-chrome.git"
+  },
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
