@@ -192,6 +192,9 @@ template.innerHTML = `
             </template>
         </media-controller>
     </template>
+    <script>
+      import 'media-chrome';
+    </script>
 `;
 
 class MediaThemeResponsive extends MediaThemeElement {
